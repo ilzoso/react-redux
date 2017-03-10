@@ -1,13 +1,10 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import HelloWorld from './modules/HelloWorld.jsx';
 import App from './components/App.jsx';
 
-ReactDom.render(<App />, document.getElementById('app'));
-
 ReactDom.render(
-  <HelloWorld />,
-  document.getElementById('container')
+  <App />, 
+  document.getElementById('app')
 );
 
 window.addEventListener('click', function(e) {
